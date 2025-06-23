@@ -60,6 +60,7 @@ class GroupIterator{
 
     next(){
         if(this.group.length==0){
+
             return {done:true}
         }
         this.value = this.group[0]
