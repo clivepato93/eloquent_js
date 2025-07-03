@@ -1,21 +1,3 @@
-
-
-
-// class ListIterator {
-//   constructor(list) {
-//     this.list = list;
-//   }
-
-//   next() {
-//     if (this.list == null) {
-//       return {done: true};
-//     }
-//     let value = this.list.value;
-//     this.list = this.list.rest;
-//     return {value, done: false};
-//   }
-// }
-
 class Group {
 	// Your code here.
 	constructor(array =[]) {
